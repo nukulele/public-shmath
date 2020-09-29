@@ -1,0 +1,4 @@
+Django<2.3
+graphene>=2.1.8
+graphene-django<3
+whitenoise>=5.0.1

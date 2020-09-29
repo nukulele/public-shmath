@@ -1,0 +1,341 @@
+[
+{
+  "model": "entry.tag",
+  "pk": "abstract-algebra",
+  "fields": {
+    "name": "abstract algebra"
+  }
+},
+{
+  "model": "entry.tag",
+  "pk": "analytical-geometry",
+  "fields": {
+    "name": "analytical geometry"
+  }
+},
+{
+  "model": "entry.tag",
+  "pk": "memorize-this",
+  "fields": {
+    "name": "memorize this"
+  }
+},
+{
+  "model": "entry.tag",
+  "pk": "stub",
+  "fields": {
+    "name": "stub"
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "absolute-value",
+  "fields": {
+    "name": "absolute value",
+    "text": "## what you need to know\r\n\r\nThe *absolute value* \\(|x|\\) is:\r\n- \\(-x\\) if \\(x<0\\),\r\n- \\(0\\) if \\(x=0\\),\r\n- \\(x\\) if \\(x>0\\).\r\n\r\n## why you need to know it\r\n\r\nWhen it's time to define [limits](/limit), there will be a lot expressions like \\(0<\\left|x-x_0\\right|<\\varepsilon\\). What that means is \"all the points \\(x\\) that are less than \\(\\varepsilon\\) away from \\(x_0\\) except \\(x_0\\) itself.\"\r\n\r\nSo *e.g.* \\(0<|x-5|<2\\) means every possible \\(x\\) between \\(5\\pm2\\), exclusive, except \\(5\\) itself. So that's \\(3<x<7\\) with \\(x\\neq5\\).",
+    "date_create": "2020-02-14T21:39:10.981Z",
+    "date_edit": "2020-02-15T13:05:18.803Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "abstract-algebra",
+  "fields": {
+    "name": "abstract algebra",
+    "text": "This is my hobby stuff. Anything tagged *abstract algebra* you can ignore.",
+    "date_create": "2020-02-28T15:39:12.263Z",
+    "date_edit": "2020-02-28T15:39:12.263Z",
+    "tags": [
+      "abstract-algebra"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "analytical-geometry",
+  "fields": {
+    "name": "analytical geometry",
+    "text": "## what you need to know\r\n\r\n*Analytical geometry* is the study of geometric objects \u2014 points, lines, triangles, circles, that sort of thing \u2014 using a [coordinate](/coordinate) system, which lets you treat these objects *algebraicly* as well as *geometrically*.",
+    "date_create": "2020-02-16T14:05:20.190Z",
+    "date_edit": "2020-02-16T14:05:51.038Z",
+    "tags": [
+      "analytical-geometry"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "cartesian",
+  "fields": {
+    "name": "cartesian",
+    "text": "The usual coordinate system, that presumes an ordered series numbers representing positions on axes that are all perpendicular to each other \u2014 \\((x,y)\\) or \\((x,y,z)\\).\r\n\r\nSee [coordinate](/coordinate).",
+    "date_create": "2020-02-16T14:11:15.412Z",
+    "date_edit": "2020-02-16T14:12:51.687Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "complex-number",
+  "fields": {
+    "name": "complex number",
+    "text": "## definition\r\n\r\nA complex number is a member of the [field](/field) \\(\\mathbb{C}=\\{a+bi\\}\\) where \\(a,b\\) are [real numbers](/real-number) and \\(i\\) is a number such that \\(i^2=-1\\).\r\n\r\n## not only but also\r\n\r\n- \\(\\mathbb{C}\\) is an extension of the field or [real numbers](/real-number) \\(\\mathbb{R}\\).\r\n- While real numbers are points on the real number line, complex numbers are points on the complex plane.",
+    "date_create": "2020-02-28T16:00:34.348Z",
+    "date_edit": "2020-02-28T16:01:59.316Z",
+    "tags": [
+      "abstract-algebra"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "coordinate",
+  "fields": {
+    "name": "coordinate",
+    "text": "## what you need to know\r\n\r\n1. A point on a line has one coordinate.\r\n1. A point on a plane has two coordinates, usually expressed as the ordered pair \\((x,y)\\).\r\n1. A point in 3D space has ... and so on.\r\n\r\n## math-lawyer stuff\r\n\r\nThis idea was developed by Ren\u00e9 Descartes, with the result that the kind of coordinate systems we'll be dealing with is called *cartesian*. (As opposed to, *e.g.*, polar coordinates.)",
+    "date_create": "2020-02-15T14:57:19.643Z",
+    "date_edit": "2020-02-16T14:15:02.672Z",
+    "tags": [
+      "analytical-geometry"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "coordinates-on-a-line",
+  "fields": {
+    "name": "coordinates on a line",
+    "text": "## in one dimension\r\n\r\n## in two dimensions\r\n\r\nThe slope-intercept formula:\r\n\r\n\\[y=mx+b\\]\r\n\r\ndescribes a line such that\r\n- it crosses the \\(y\\)-axis at \\(b\\), and\r\n- the *slope* of the line is \\(m\\).\r\nThe only kind of line this doesn't describe is one with infinite slope, *i.e.* straight up and down. Those lines are of the form \r\n\\(x=c\\)\r\nfor some \\(c\\in\\mathbb{R}\\).",
+    "date_create": "2020-02-14T21:37:28.030Z",
+    "date_edit": "2020-02-14T21:54:27.326Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "derivative",
+  "fields": {
+    "name": "derivative",
+    "text": "*This is a stub entry. Add vast knowledge here.*",
+    "date_create": "2020-02-28T20:10:49.484Z",
+    "date_edit": "2020-02-28T20:10:49.484Z",
+    "tags": [
+      "stub"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "field",
+  "fields": {
+    "name": "field",
+    "text": "*This is a stub entry. Add vast knowledge here.*",
+    "date_create": "2020-02-28T17:53:35.744Z",
+    "date_edit": "2020-02-28T17:53:35.744Z",
+    "tags": [
+      "stub"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "group",
+  "fields": {
+    "name": "group",
+    "text": "*This is a stub entry. Add vast knowledge here.*",
+    "date_create": "2020-02-28T17:53:42.681Z",
+    "date_edit": "2020-02-28T17:53:42.681Z",
+    "tags": [
+      "stub"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "home",
+  "fields": {
+    "name": "home",
+    "text": "# shmath home page\r\n\r\nA place for math notes\r\n- partly for [Calc I](/overview)\r\n- partly my notes on [abstract algebra](/abstract-algebra), which you can ignore.\r\n\r\n## Some allegedly useful navigation\r\n\r\n- [Index of Entries](/entries/1/)\r\n- [Index of Tags](/tags/1/)\r\n\r\n## Also\r\n- Some [nerd fodder](/nerd-fodder)",
+    "date_create": "2020-02-11T20:45:27.850Z",
+    "date_edit": "2020-02-28T20:32:39.659Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "infinitesimal",
+  "fields": {
+    "name": "infinitesimal",
+    "text": "## what you need to know\r\n\r\nSomething that is \"infinitely small\" the way that infinity is \"infinitely large.\" \r\n\r\nSee [infinity](/infinity).\r\n\r\n## what you'll figure out\r\n\r\nThis thing tends to be written as \\(\\varepsilon\\). When someone says \"\\(2\\pm\\varepsilon\\)\" they mean \"basically 2.\"",
+    "date_create": "2020-02-14T21:18:54.109Z",
+    "date_edit": "2020-02-16T14:30:26.484Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "infinity",
+  "fields": {
+    "name": "infinity",
+    "text": "## what you need to know\r\n\r\n1. Infinity is not a [number](/number); it's a direction.\r\n1. We care about two kinds of infinity:\r\n  - positive infinity, \\(+\\infty\\), the direction of the ever larger\r\n  - the *infinitesimal*, the direction of the ever smaller (yet still positive) number as it falls ever closer to zero.",
+    "date_create": "2020-02-14T21:15:14.973Z",
+    "date_edit": "2020-02-14T21:18:09.515Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "integer",
+  "fields": {
+    "name": "integer",
+    "text": "## definition\r\n\r\nAn integer is a member of the set \\(\\mathbb{Z}=\\{...-3,-2,-1,0,1,2,3,...\\}\\).\r\n\r\n## not only but also\r\n\r\n- \\(\\mathbb{Z}\\) is a [group](/group) but not a [field](/field) (since there's no multiplicative [inverse](/inverse-property)).",
+    "date_create": "2020-02-28T15:30:59.970Z",
+    "date_edit": "2020-02-28T15:56:12.314Z",
+    "tags": [
+      "abstract-algebra"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "inverse-property",
+  "fields": {
+    "name": "inverse property",
+    "text": "*This is a stub entry. Add vast knowledge here.*",
+    "date_create": "2020-02-28T17:54:37.286Z",
+    "date_edit": "2020-02-28T17:54:37.286Z",
+    "tags": [
+      "stub"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "least-upper-bound",
+  "fields": {
+    "name": "least upper bound",
+    "text": "*This is a stub entry. Add vast knowledge here.*",
+    "date_create": "2020-02-28T17:54:25.626Z",
+    "date_edit": "2020-02-28T17:54:25.626Z",
+    "tags": [
+      "stub"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "limit",
+  "fields": {
+    "name": "limit",
+    "text": "*This is a stub entry. Add vast knowledge here.*",
+    "date_create": "2020-02-28T17:54:15.284Z",
+    "date_edit": "2020-02-28T17:54:15.284Z",
+    "tags": [
+      "stub"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "line",
+  "fields": {
+    "name": "line",
+    "text": "## what you need to know\r\n\r\n1. This discussion presumes two dimensions.\r\n1. You know what a line is geometrically.\r\n1. Analytically, a line is a set of points \\((x,y)\\) such that either \\(y=mx+b\\) or \\(y=c\\) for some constant \\(c\\).\r\n1. If the line is straight up and down, parallel to the \\(y\\)-axis, then it's \\(y=c\\) and has infinite [slope](/slope).\r\n1. In any other case, then it's \\(y=mx+b\\), where \\(m\\) is the [slope](/slope) and \\(b\\) is where it crosses the \\(y\\)-axis.\r\n\r\n## memorize this\r\n\r\n1. \\(y=mx+b\\) is a line with [slope](/slope) \\(m\\) and \\(y\\)-intercept \\(b\\). So it's called the *slope-intercept formula.*",
+    "date_create": "2020-02-15T15:00:16.537Z",
+    "date_edit": "2020-02-15T15:09:53.754Z",
+    "tags": [
+      "analytical-geometry"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "nerd-fodder",
+  "fields": {
+    "name": "nerd fodder",
+    "text": "## Bits and pieces\r\n\r\nThis blog is built mainly using\r\n- `Django`: a `Python`-based web framework\r\n- `Vue`: a `JavaScript` framework for front-end rendering\r\n- `MathJax`: JavaScript library and fonts for rendering math notation\r\n- `markdown`: markup language designed for easy translation into HTML\r\n- `webpack`, `node`: for transpilation of `Vue` components into web-friendly JavaScript module\r\n\r\nThe content of the mathy pages is sent as raw `markdown+MathJax` and rendered to HTML and math in the front end by `Vue`.\r\n\r\nThe list of tech/tools I touched to do this would go something like this: apache2 css Django git gunicorn http html JavaScript json nginx node npm pip postgresQL PyCharm sqlite3 virtualenv vue webpack woff2\r\n\r\nI edit the entries on an instance of the application running on my laptop. I periodically transfer the data to a read-only version of the application that's on the service provider.",
+    "date_create": "2020-02-15T14:52:10.997Z",
+    "date_edit": "2020-02-28T20:33:35.641Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "number",
+  "fields": {
+    "name": "number",
+    "text": "## what you need to know\r\n\r\n1. We're using the [real number](/real-number) system, \\(\\mathbb{R}\\), which is an infinite bag of numbers with certain properties and operations defined on it.\r\n1. If \\(a\\in\\mathbb{R}\\), it's a number.\r\n1. But \\(\\infty\\notin\\mathbb{R}\\). Infinity is not a number.\r\n\r\n## math-lawyer stuff\r\n\r\nThe defining properties of \\(\\mathbb{R}\\) are:\r\n1. \\(a+b\\) and \\(a\\times b\\) work like you'd expect (it's a [field](/field)).\r\n1. \\(a<b\\), \\(a=b\\), and \\(a>b\\) work like you'd expect (the *ordering property*).\r\n1. there is an extra property we'll need later called the [least upper bound](/least-upper-bound).",
+    "date_create": "2020-02-14T21:08:18.734Z",
+    "date_edit": "2020-02-28T15:51:33.062Z",
+    "tags": [
+      "abstract-algebra"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "overview",
+  "fields": {
+    "name": "overview",
+    "text": "## Act I: Analytical Geometry\r\n\r\nAnalytical geometry is the study of the relationship between geometrical objects -- circles, lines, triangles, and such -- and their description as mathematical formulas. This ends up being central to calculus, because the keystone ideas of calculus are geometric but are written in mathematical notation.\r\n\r\nWithout that geometric perspective, the formulas are just piles of \\(\\int\\) letters and signs with mysterious rules. So Act I is drills-for-skills about how to see graphs and formulas as two different ways of looking at the same thing, and getting good at hopping between the two forms.\r\n\r\n## Act II: Limits, \\(\\lim_{x\\to\\alpha}f(x)\\)\r\n\r\nAnother important hurdle to get over, this time conceptual, is the question of how to involve infinity in your calculations without sounding like Professor Hairguy.\r\n\r\nThe key insight is that infinity isn't a number but a direction. You can meaningfully talk about the result of an infinite calculation by studying the result of a similar but finite calculation, and watching what it looks like as you move it closer and closer to being an infinite calculation, until you get a sense of where it's headed. That's the process of taking a limit.\r\n\r\n## Act III: Differential Calculus, \\(f'(x)\\)\r\n\r\nOne of the two crown jewels of Calc I. Roughly speaking, it's about building a challenge-and-response skill: if I give you \\(f(x)\\), can you give me the related function \\(f'(x)\\) that holds the same basic relationship to as, say, speed does to position, or acceleration does to speed?\r\n\r\nThe good news is that this one isn't so tough, compared to the climb to get there. There are rules to memorize, but not that many.\r\n\r\n## Act IV: Integral Calculus, \\(\\int f(x)dx\\)\r\n\r\nThis part amounts to doing the previous part backward -- going from acceleration to speed, or from speed to distance. As the \\(\\int\\) symbol hints at, you can think of it as a kind of extended version of summation (\\(\\int\\) for \"summa\") for adding up things that are constantly changing.\r\n\r\nSo if I give you \\(f(x)\\), can you give me the related function \\(\\int f(x)dx\\), which is sorta \\(f(x)\\) added up as \\(x\\) is changing? The bad news is, this one is hard. There's some guesswork and trial-and-error, and there used to be [tomes](https://en.wikipedia.org/wiki/Gradshteyn_and_Ryzhik) that were nothing but tables for looking integrals up. \r\n\r\n(Aside: in the last, say, 50 years, mathematicians came up with a [computer algorithm](https://en.wikipedia.org/wiki/Risch_algorithm) for this, but it's *wa-a-a-ay* different than what you're taught in Calc I, is really complicated, basically takes a computer to keep all the details straight, and understanding it is on my bucket list.)",
+    "date_create": "2020-02-14T21:01:25.723Z",
+    "date_edit": "2020-02-28T16:20:07.632Z",
+    "tags": []
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "rational-number",
+  "fields": {
+    "name": "rational number",
+    "text": "## definition\r\n\r\nA rational number is a member of the infinite set \\(\\mathbb{Q}\\), the set of all numbers \\(a/b\\) with \\(a,b\\in\\mathbb{Z}\\) and \\(b\\neq0\\).\r\n\r\n## not only but also\r\n\r\n- \\(\\mathbb{Q}\\) is a [field](/field).\r\n- \\(\\mathbb{Q}\\) is a subfield of the field of real numbers \\(\\mathbb{R}\\).",
+    "date_create": "2020-02-28T15:31:14.439Z",
+    "date_edit": "2020-02-28T15:47:20.242Z",
+    "tags": [
+      "abstract-algebra"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "real-number",
+  "fields": {
+    "name": "real number",
+    "text": "## definition\r\n\r\nA real number is a member of the infinitely large set \\(\\mathbb{R}\\).\r\n\r\n## not only but also\r\n\r\n- \\(\\mathbb{R}\\) is an extension of \\(\\mathbb{Q}\\), the [field](/field) of [rational numbers](/rational-number).\r\n- Infinity isn't a real number, because \\(\\infty\\notin\\mathbb{R}\\).",
+    "date_create": "2020-02-28T15:30:47.492Z",
+    "date_edit": "2020-02-28T15:43:28.551Z",
+    "tags": [
+      "abstract-algebra"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "slope",
+  "fields": {
+    "name": "slope",
+    "text": "## memorize this\r\n\r\n\\[\\mathrm{slope}={\\mathrm{rise}\\over\\mathrm{run}}={\\Delta y\\over\\Delta x}\\]\r\n\r\n## what you need to know\r\n\r\n- \"Rise\" and \"run\" are terms describing a staircase. \"Rise\" is the height of a step, \"run\" is the depth of the step. \r\nSo \\(\\mathrm{rise}/\\mathrm{run}\\) gives you the slope of the staircase. All run and no rise gives you a small slope, all rise and no run gives you a steep one.\r\n- Also, this is *slope* of a [line](/line), as in the [slope intercept formula](/slope-intercept-formula).\r\n\r\n\r\n## why you need to know this\r\n\r\nThis will be a central part of the definition of the [derivative](/derivative), which is \r\n\\(f'(x)=\\lim_{\\Delta x\\to0} {\\Delta y \\over\\Delta x}\\), taking the [limit](/limit) of a slope as \\(\\Delta x\\) becomes an [infinitesimal](/infinitesimal).",
+    "date_create": "2020-02-28T17:54:19.653Z",
+    "date_edit": "2020-02-28T20:06:09.423Z",
+    "tags": [
+      "analytical-geometry",
+      "memorize-this"
+    ]
+  }
+},
+{
+  "model": "entry.entry",
+  "pk": "slope-intercept-formula",
+  "fields": {
+    "name": "slope-intercept formula",
+    "text": "## memorize this\r\n\r\n\\[y=mx+b\\]\r\n\r\nwhere \\(m\\) is the [slope](/slope) of the line and \\(b\\) is the spot where it hits the \\(y\\) axis.\r\n\r\n## what you need to know\r\n\r\n- There are a couple of different ways to express the formula for a line. \r\n- This one is handy because, just looking at it, you can see the slope and the \\(y\\)-intercept.\r\n- But it's no good if the line is straight up and down, because then \\(m=\\infty\\).\r\n\r\nSee [line](/line) for more.",
+    "date_create": "2020-02-15T15:07:40.434Z",
+    "date_edit": "2020-02-28T20:08:53.067Z",
+    "tags": [
+      "analytical-geometry",
+      "memorize-this"
+    ]
+  }
+}
+]
