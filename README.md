@@ -12,8 +12,8 @@ A tiny CMS for `markdown` and `mathjax` and `Django` and `Vue`.
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py loaddata data/stub.py
-nlm install
-nlm run dev
+npm install
+npm run dev
 python manage.py runserver
 ```
 
